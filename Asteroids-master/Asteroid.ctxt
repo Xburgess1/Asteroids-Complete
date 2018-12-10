@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Asteroid
+comment0.text=\r\n\ A\ rock\ in\ space.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n
+comment1.params=
+comment1.target=Asteroid()
+comment1.text=\r\n\ This\ is\ the\ default\ constructor\ for\ objects\ of\ type\ Asteroid\r\n\ \r\n\ @param\ None\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment2.params=size
+comment2.target=Asteroid(int)
+comment2.text=\r\n\ Asteroid\ is\ the\ constructor\ for\ objects\ of\ type\ Asteroid.\r\n\ It\ allows\ customization\ of\ the\ size\ of\ the\ Asteroid\r\n\ \r\n\ @param\ size\ represents\ the\ size\ of\ the\ Asteroid\r\n\ @return\ An\ object\ of\ type\ Asteroid\r\n
+comment3.params=size\ velocity
+comment3.target=Asteroid(int,\ Vector)
+comment3.text=\r\n\ Asteroid\ is\ the\ constructor\ for\ objects\ of\ type\ Asteroid.\r\n\ It\ allows\ customization\ of\ the\ size\ of\ the\ Asteroid\ and\r\n\ the\ speed\ and\ direction\ of\ the\ Asteroid\r\n\ \r\n\ @param\ size\ represents\ the\ size\ of\ the\ Asteroid\r\n\ @param\ velocity\ represents\ the\ speed\ and\ direction\ of\ the\ Asteroid\r\n\ @return\ An\ object\ of\ type\ Asteroid\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ act\ is\ the\ method\ that\ is\ run\ on\ every\ \r\n\ iteration\ of\ the\ act\ cycle\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=size
+comment5.target=void\ setSize(int)
+comment5.text=\r\n\ setSize\ sets\ stability\ and\ size\ equal\ to\ the\ size\ parameter.\ Then\ it\ scales\ the\ image\ to\ size,\ size.\r\n\ \r\n\ @param\ An\ int\ variable\ called\ size\ which\ is\ for\ the\ size\ of\ the\ Asteroid\r\n\ @return\ there\ is\ no\ return\r\n
+comment6.params=damage
+comment6.target=void\ hit(int)
+comment6.text=\r\n\ hit\ sets\ up\ a\ Space\ variable\ called\ space\ which\ is\ set\ to\ a\ reference\ of\ the\ world.\ Then\ it\ sets\ stability\ to\ stability\ +\ damage.\ If\ stability\r\n\ is\ less\ then\ or\ equal\ to\ 0\ then\ it\ adds\ 15\ points\ to\ the\ score.\ Else\ if\ the\ size\ is\ >\=\ 25\ it\ adds\ 30\ points\ to\ the\ score.\ Else\ it\ adds\ 50\ points\r\n\ to\ the\ score.\ Then\ it\ calls\ the\ break\ up\ method\ with\ a\ random\ number\ between\ 0-\ 5\ as\ a\ parameter.\r\n\ \r\n\ @param\ An\ int\ called\ damage\r\n\ @return\ there\ is\ no\ return\r\n
+comment7.params=numBreakUp
+comment7.target=void\ breakUp(int)
+comment7.text=\r\n\ breakUp\ makes\ 4\ variables,\ a\ int\ called\ rotation,\ a\ double\ called\ length,\ a\ Vector\ called\ speed,\ an\ Asteroid\ called\ debris.\ Then\ breakUp\ plays\r\n\ an\ explosion\ sound.\ If\ the\ size\ is\ less\ then\ 15\ it\ removes\ the\ asteroid\ else\ it\ sets\ rotation\ and\ sets\ the\ length.\ then\ it\ starts\ a\ loop\ that\r\n\ runs\ if\ i\ is\ less\ then\ numBreakUp.\ In\ the\ loop\ it\ sets\ speed\ to\ a\ new\ vector\ and\ debris\ to\ a\ new\ Asteroid.\ Then\ it\ adds\ a\ debris\ object\ to\ the\r\n\ world,\ and\ gets\ the\ move\ method\ of\ debris.\ Outside\ the\ loop\ it\ removes\ itself.\r\n\ \r\n\ @param\ An\ int\ called\ numBreakUp\ which\ is\ used\ for\ how\ many\ times\ the\ asteroid\ should\ break\ up\r\n\ @return\ there\ is\ no\ return\r\n
+numComments=8

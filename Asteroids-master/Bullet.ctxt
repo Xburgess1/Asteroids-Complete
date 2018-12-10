@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ A\ bullet\ that\ can\ hit\ asteroids.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n
+comment1.params=speed\ rotation
+comment1.target=Bullet(Vector,\ int)
+comment1.text=\r\n\ Bullet\ is\ a\ constructor\ for\ objects\ of\ type\ Bullet\ that\r\n\ allow\ customization\ of\ speed\ and\ rotation\r\n\ \r\n\ @param\ speed\ represents\ the\ speed\ of\ the\ bullet\r\n\ @param\ rotation\ represents\ the\ rotation\ of\ the\ bullet\r\n\ @return\ An\ object\ of\ type\ Bullet\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ is\ the\ method\ that\ is\ run\ on\ every\ iteration\ of\ the\ act\ cycle.\ In\ the\ act\ method\ if\ the\ life\ of\ the\ bullet\ is\ equal\ to\ or\ less\ then\ 0\r\n\ it\ removes\ itself\ from\ the\ world.\ Else\ it\ subtracts\ 1\ from\ the\ life,\ moves\ the\ bullet\ and\ calls\ the\ checkAsteroidHit\ method.\r\n\ \r\n\ @param\ None\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ checkAsteroidHit()
+comment3.text=\r\n\ checkAsteroidHit\ sets\ up\ a\ Asteroid\ variable\ called\ asteroid\ then\ if\ asteroid\ is\ not\ nothing\ it\ removes\ itself(the\ bullet)\ then\ hits\ the\ asteroid\r\n\ with\ DAMAGE.\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+numComments=4
